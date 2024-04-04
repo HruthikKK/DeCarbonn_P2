@@ -469,6 +469,96 @@ html{
   }
 }
 
+
+.attach{
+  width: 100%;
+  padding: 20px 25px;
+}
+.attach h2{
+  font-size: 26px;
+  font-weight: 600;
+}
+.docCont{
+  padding: 20px  10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.docCont iframe{
+  width: 350px;
+  height: 250px;
+  padding: 10px 0px;
+  background-color: #585858;
+  border: 2px solid;
+  border-radius: 20px;
+}
+.atcBtn{
+  display: flex;
+  justify-content: center;
+}
+.atcBtn a{
+  text-decoration: none;
+  background-color: #133009;
+  color: #fff;
+  padding: 8px 24px;
+  border-radius: 15px;
+}
+.atcBtn a:hover{
+  background-color: #b8b7b7;
+  color: #133009;
+}
+.atcBtn p{
+  padding: 8px 8px;
+  font-size: 8px;
+}
+
+
+@media screen and (min-width:600px){
+  .attach{
+    padding: 20px 45px;
+  }
+  .attach h2{
+    font-size: 26px;
+    font-weight: 600;
+  }
+  .docCont{
+    padding: 20px  10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .docCont iframe{
+    width: 500px;
+    height: 370px;
+    padding: 20px 0px;
+    background-color: #585858;
+    border: 2px solid;
+    border-radius: 20px;
+  }
+  .atcBtn{
+    display: flex;
+    justify-content: center;
+  }
+  .atcBtn a{
+    text-decoration: none;
+    background-color: #133009;
+    color: #fff;
+    padding: 8px 24px;
+    border-radius: 15px;
+  }
+  .atcBtn a:hover{
+    background-color: #b8b7b7;
+    color: #133009;
+  }
+  .atcBtn p{
+    padding: 8px 8px;
+    font-size: 8px;
+  }
+}
+
 footer{
   margin-top: 50px;
   background-color: #133009;
@@ -725,6 +815,7 @@ footer{
   .fCompanyPoints{
     display: block;
   }
-
-
 }
+
+
+
