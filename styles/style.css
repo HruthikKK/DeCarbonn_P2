@@ -207,23 +207,23 @@ html{
 
 @media screen and (min-width:600px) {
 
+    .navBar{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 90px;
+        padding: 30px 50px;
+    }
     .desk_Nav{
         display: flex;
-        width: 650px;
+        /* width: 650px; */
         height: 100%;
-        gap: 10px;
+        gap: 20px;
         justify-content: space-evenly;
         align-items: center;        
     }
     .mob_Nav{
         display: none;
-    }
-    .navBar{
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        height: 120px;
-        padding: 30px 50px;
     }
 
     .mainLogo{
@@ -234,12 +234,12 @@ html{
     /* logo */
 
     #logoImg{  
-        width: 55px;
+        width: 35px;
         top: 0;
         left: 0;
     }
     #logoText{
-        font-size: 50px;
+        font-size: 30px;
         line-height: 90px;
         left: 100px;
     }
@@ -250,7 +250,7 @@ html{
 
     .desk_Nav a{
         text-decoration: none;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 400;
         color: #fff;
         text-align: center;
@@ -265,7 +265,7 @@ html{
     
     .dropdown .dropbtn {
     cursor: pointer;
-    font-size: 20px;  
+    font-size: 15px;  
     border: none;
     outline: none;
     color: white;
@@ -282,7 +282,7 @@ html{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     }
@@ -307,7 +307,7 @@ html{
     button#searchNav{
         color: #fff;
         background-color: transparent;
-        font-size: 20px;
+        font-size: 15px;
         border: none;
         cursor: pointer;
     }
@@ -355,6 +355,7 @@ html{
     display: flex;
     gap: 40px;
     min-width: 800px;
+    position: relative;
   }
 
   .projectSec{
@@ -365,23 +366,25 @@ html{
     text-align: center;
   }
   .projectHead h1{
-    font-size: 38px;
+    font-size: 28px;
   }
   .pCImgCont img{
     width: 100%;
-    height: 280px;
+    height: 240px;
     border-radius: 25px;
   }
   .pCInfoCont h2{
-    font-size: 24px;
+    font-size: 20px;
     padding: 10px 0px 10px;
   }
   .pCInfoCont p{
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 16px;
   }
   .pCBtn{
-    margin-top: 25px;
+    margin-top: 16px;
+    position: absolute;
+    bottom: 10px;
   }
   .pCBtn a{
     text-decoration: none;
@@ -389,7 +392,7 @@ html{
     color: #fff;
     padding: 8px 24px;
     border-radius: 15px;
-    font-size: 18px;
+    font-size: 16px;
   }
   .pCBtn a:hover{
     background-color: #b8b7b7;
@@ -417,6 +420,13 @@ html{
   .projectInfo p{
     font-size: 20px;
   }
+  .projectInfo h1{
+    font-size: 24px;
+  }
+  .projectInfo p{
+    font-size: 16px;
+  }
+
 }
 
 .gMap{
@@ -440,10 +450,11 @@ html{
     padding: 40px 45px;
   }
   .gMap h1{
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
   }
   .gMap h1 span{
+    font-size: 20px;
     font-weight: 400;
   }
   .gMap .iframeCont{
@@ -592,6 +603,7 @@ footer{
 @media screen and (min-width:600px) {
   footer{
     text-align: left;
+    padding: 10px 10px;
   }
   .f1{
     flex-direction: row;
@@ -611,7 +623,7 @@ footer{
 
   .footerLogo{
     display: flex;
-    height: 130px;
+    height: 100px;
     /* padding: 10px 0px 10px 40px; */
     align-items: center;
     justify-content: flex-start;
@@ -621,17 +633,17 @@ footer{
   }
   
   #flogoText{
-    font-size: 35px;
+    font-size: 32px;
   }
   
   #flogoImg{  
-    width: 40px
+    width: 38px;
   }
   #flogoImg img{
     width: 100%;
   }
   .fS1Q{
-    font-size: 24px;
+    font-size: 20px;
   }
   .fBtn{
     margin-top: 10px;
@@ -643,18 +655,18 @@ footer{
   .fBtn #fBtn1{
     /* flex: 2; */
     background-color: #EBEAEA;
-    font-size: 18px;
+    font-size: 14px;
     padding: 8px 13px;
     border-radius: 18px;
     width: 240px;
-    /* text-align: center; */
+    text-align: center;
   }
   .fBtn button{
     font: inherit;
     /* flex: 1; */
     color: #133009;
     border-radius: 15px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     color: #133009;
     width: 80px;
@@ -673,8 +685,8 @@ footer{
     background-color: #133009;
   }
   .fConnect a svg{
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 22px;
   }
   
   .fS2{
@@ -682,7 +694,7 @@ footer{
   }
   .fS2 h3{
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
   .fS2 a{
@@ -690,7 +702,7 @@ footer{
     color: #fff;
     display: block;
     font-weight: 250;
-    font-size: 18px;
+    font-size: 16px;
   }
   .fCompany{
     margin-bottom: 10px;
@@ -703,7 +715,7 @@ footer{
   
   .f2 h5{
     font-weight: 300;
-    font-size: 22px;
+    font-size: 16px;
   }
 
   .fInit{
